@@ -1,0 +1,44 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .container {
+            max-width: 800px;
+            margin: auto;
+            .about__us__container {
+                font-family: "delicious";
+                color: white;
+                font-size: 50px;
+                background-color:$text-color;
+                text-align: center;
+            }
+            .container__box {
+                margin-top: 40px;
+                color: white;
+                h2 {
+                    color: $text-color;
+                    font-weight: 800;
+                }
+                p {
+                    font-family: "alkarta";
+                    font-size: 20px;
+                    color: $text-color;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@font-face {
+    font-family: "delicious";
+    src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+@import "../fonts/font.css"

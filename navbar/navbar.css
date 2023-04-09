@@ -92,4 +92,8 @@
   font-size: 12px;
   color: white;
 }
+
+a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,116 @@
+@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+body {
+  font-family: "alkarta";
+  background-color: #f5ebdc;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+body header .container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+body header .container .about__us__container {
+  font-family: "delicious";
+  color: white;
+  font-size: 50px;
+  background-color: #512416;
+  text-align: center;
+}
+
+body header .container .grid__box {
+  margin-top: 40px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body header .container .grid__box .inner__grid__box {
+  max-width: 600px;
+  margin: auto;
+}
+
+body header .container .grid__box .inner__grid__box .first .inner__first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+
+body header .container .grid__box .inner__grid__box .first .inner__first p {
+  text-align: center;
+}
+
+body header .container .grid__box .inner__grid__box .inner__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  gap: 10px;
+}
+
+body header .container #color {
+  color: #512416;
+  font-weight: 900;
+  text-align: center;
+}
+
+body header .container #sec_color {
+  color: #512416;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .inner__grid__box {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 514px) {
+  .inner__grid__box {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .inner__grid__box {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .inner__grid__box {
+    font-size: 8px !important;
+  }
+}
+
+footer {
+  z-index: 1000;
+  background-color: #f5ebdc;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+}
+
+.navbar {
+  z-index: 1000;
+  background-color: #f5ebdc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+@font-face {
+  font-family: "delicious";
+  src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+/*# sourceMappingURL=terms.css.map */

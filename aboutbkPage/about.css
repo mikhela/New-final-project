@@ -1,0 +1,48 @@
+@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+body {
+  font-family: "alkarta";
+  background-color: #f5ebdc;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+body header .container {
+  max-width: 800px;
+  margin: auto;
+}
+
+body header .container .about__us__container {
+  font-family: "delicious";
+  color: white;
+  font-size: 50px;
+  background-color: #512416;
+  text-align: center;
+}
+
+body header .container .container__box {
+  margin-top: 40px;
+  color: white;
+}
+
+body header .container .container__box h2 {
+  color: #512416;
+  font-weight: 800;
+}
+
+body header .container .container__box p {
+  font-family: "alkarta";
+  font-size: 20px;
+  color: #512416;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "delicious";
+  src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+/*# sourceMappingURL=about.css.map */

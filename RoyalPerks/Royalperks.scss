@@ -1,0 +1,111 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            .about__us__container {
+                font-family: "delicious";
+                color: white;
+                font-size: 50px;
+                background-color:$text-color;
+                text-align: center;
+            }
+            .content__make {
+                border-top: 2px solid $moreborder-color;
+                border-bottom: 2px solid $moreborder-color;
+                margin-top: 40px;
+                padding: 30px;
+                .first_boboyvati {
+                    max-width: 500px;
+                    margin: auto;
+                    gap: 20px;
+                }
+                .second__boboyvvati {
+                    max-width: 200px;
+                    margin: auto;
+                    gap: 20px;
+                }
+                p {
+                    color: $text-color;
+                    font-weight: 800;
+
+                }
+            }
+            .banner {
+                width: 600px;
+                max-width: 100%;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 40px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .myrow {
+        display: none;
+    }
+}
+@media only screen and (max-width: 378px) {
+    .myrow {
+        display: block;
+    }
+}
+.card {
+    margin-top: 20px;
+    height: 400px;
+    padding: 10px;
+    img {
+        width: 100%;
+    }
+}
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        color: $text-color;
+        font-weight: 900;
+    }
+    h5 {
+        text-align: center;
+        margin-top: 20px;
+        color: $text-color;
+        font-weight: 900;
+    }
+    p {
+        text-align: center;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 20px;
+        color: $text-color;
+        font-weight: 600;
+    }
+footer {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    bottom: 0px;
+}
+.navbar {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    top: 0px;
+}
+
+
+@font-face {
+    font-family: "delicious";
+    src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+@import "../fonts/font.css"

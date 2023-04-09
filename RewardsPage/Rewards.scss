@@ -1,0 +1,91 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            #accordionPanelsStayOpenExample {
+                position: relative;
+                top: 100px;
+                
+            }
+       
+            .accordion-body {
+                 background-color: rgba(245,235,220,255);
+                .accordion__content {
+                    .mainimgBox {
+                        position: relative;
+                        .MainIMG {
+                            width: 200px;
+                            opacity: 0.5;
+                            padding-right: 10px;
+                        } 
+                        #lock {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            opacity: 1000;
+                        }
+                    }
+                    .right__content {
+                        width: 100%;
+                        h2 {
+                            font-size: 22px;
+                            font-weight: 800;
+                            color: $text-color;
+                        }
+                        .right__content__border {
+                            margin-top: 20px;
+                            border-radius: 20px;
+                            background-color: white;
+                            height: 10px;
+                            width: 100%;
+                        }
+                        p {
+                            padding-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+button {
+    color: $text-color !important;
+    font-weight: 600;
+}
+footer {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    bottom: 0px;
+}
+.navbar {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    top: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+    .accordion__content {
+        display: block !important;
+        text-align: center;
+    }
+    .mainimgBox {
+        max-width: 200px;
+        margin: auto;
+    }
+}
+
+
+@import "../fonts/font.css"

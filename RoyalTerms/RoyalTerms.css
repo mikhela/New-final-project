@@ -1,0 +1,63 @@
+@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+body {
+  font-family: "alkarta";
+  background-color: #f5ebdc;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+body header .container {
+  max-width: 800px;
+  margin: auto;
+}
+
+body header .container .about__us__container {
+  font-family: "delicious";
+  color: white;
+  font-size: 50px;
+  background-color: #512416;
+  text-align: center;
+}
+
+body header .container p {
+  margin-top: 20px;
+  max-width: 600px;
+  margin: auto;
+  color: #512416;
+  font-weight: 600;
+}
+
+body header .container h2 {
+  max-width: 600px;
+  margin-top: 20px;
+  margin: auto;
+  color: #512416;
+  font-weight: 900;
+}
+
+footer {
+  z-index: 1000;
+  background-color: #f5ebdc;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+}
+
+.navbar {
+  z-index: 1000;
+  background-color: #f5ebdc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+@font-face {
+  font-family: "delicious";
+  src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+/*# sourceMappingURL=RoyalTerms.css.map */

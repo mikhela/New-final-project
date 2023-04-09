@@ -1,0 +1,53 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .container {
+            max-width: 1000px;
+            margin: auto;
+
+            p {
+                margin-top: 20px;
+                max-width: 600px;
+                margin: auto;
+                color: $text-color;
+                font-weight: 600;
+            }
+            h2 {
+                max-width: 600px;
+                margin-top: 20px;
+                margin: auto;
+                color: $text-color;
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+
+footer {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    bottom: 0px;
+}
+.navbar {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    top: 0px;
+}
+
+
+@font-face {
+    font-family: "delicious";
+    src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+@import "../fonts/font.css"

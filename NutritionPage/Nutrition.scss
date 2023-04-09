@@ -1,0 +1,116 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            .Brown__content {
+                width: 100%;
+                height: 20vh;
+                background-color: $text-color;
+                border-radius: 20px;
+                .white__content {
+                max-width: 950px;
+                margin: auto;
+                border-radius: 20px;
+                min-height: 25vh;
+                background-color: white;
+                position: relative;
+                top: 60px;
+                padding: 40px;
+                    .accordion-item {
+                        h4 {
+                            cursor: pointer;
+                            color: $text-color;
+                            font-weight: 800;
+                        }
+                        #flush-headingOne {
+                            padding: 20px;
+                            border-bottom: 1px solid $text-color;
+                        }   
+                        i {
+                            color: $text-color;
+                        }                     
+                    }
+                }
+            }
+            .burgerMenuContainer {
+                margin-top: 200px;
+                display: flex;
+                position: relative;
+                img {
+                    width: 150px;
+                }
+                h5 {
+                    position: relative;
+                    top: 80px;
+                    font-weight: 900;
+                    color: $text-color;
+                    font-size: 25px;
+                }
+            }
+            .row {
+                .col-lg-6 {
+                    margin-top: 30px;
+                    cursor: pointer;
+                    .card {
+                        border-radius: 30px;
+                        img {
+                            width: 200px;
+                            padding: 20px;
+                            margin: auto;
+                        }
+                        h5 {
+                            text-align: center;
+                            font-weight: 900;
+                            color: $text-color;
+                            font-size: 20px;
+                        }
+                        p {
+                            text-align: center;
+                            font-weight: 500;
+                            color: $text-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+#orives {
+    color: $text-color;
+    font-weight: 800;
+    display: none;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    bottom: 0px;
+}
+.navbar {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    top: 0px;
+}
+
+
+@font-face {
+    font-family: "delicious";
+    src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+@import "../fonts/font.css"

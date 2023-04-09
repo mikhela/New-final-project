@@ -1,0 +1,127 @@
+@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+body {
+  font-family: "alkarta";
+  background-color: #f5ebdc;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+body header .container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+body header .container .about__us__container {
+  font-family: "delicious";
+  color: white;
+  font-size: 50px;
+  background-color: #512416;
+  text-align: center;
+}
+
+body header .container .content__make {
+  border-top: 2px solid #652815;
+  border-bottom: 2px solid #652815;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+body header .container .content__make .first_boboyvati {
+  max-width: 500px;
+  margin: auto;
+  gap: 20px;
+}
+
+body header .container .content__make .second__boboyvvati {
+  max-width: 200px;
+  margin: auto;
+  gap: 20px;
+}
+
+body header .container .content__make p {
+  color: #512416;
+  font-weight: 800;
+}
+
+body header .container .banner {
+  width: 600px;
+  max-width: 100%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 40px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .myrow {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .myrow {
+    display: block;
+  }
+}
+
+.card {
+  margin-top: 20px;
+  height: 400px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #512416;
+  font-weight: 900;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 20px;
+  color: #512416;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  color: #512416;
+  font-weight: 600;
+}
+
+footer {
+  z-index: 1000;
+  background-color: #f5ebdc;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+}
+
+.navbar {
+  z-index: 1000;
+  background-color: #f5ebdc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+@font-face {
+  font-family: "delicious";
+  src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+/*# sourceMappingURL=Royalperks.css.map */

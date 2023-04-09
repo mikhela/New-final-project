@@ -1,1 +1,100 @@
-/* No CSS *//*# sourceMappingURL=Rewards.css.map */
+@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+body {
+  font-family: "alkarta";
+  background-color: #f5ebdc;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+body header .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body header .container #accordionPanelsStayOpenExample {
+  position: relative;
+  top: 100px;
+}
+
+body header .container .accordion-body {
+  background-color: #f5ebdc;
+}
+
+body header .container .accordion-body .accordion__content .mainimgBox {
+  position: relative;
+}
+
+body header .container .accordion-body .accordion__content .mainimgBox .MainIMG {
+  width: 200px;
+  opacity: 0.5;
+  padding-right: 10px;
+}
+
+body header .container .accordion-body .accordion__content .mainimgBox #lock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 1000;
+}
+
+body header .container .accordion-body .accordion__content .right__content {
+  width: 100%;
+}
+
+body header .container .accordion-body .accordion__content .right__content h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #512416;
+}
+
+body header .container .accordion-body .accordion__content .right__content .right__content__border {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  height: 10px;
+  width: 100%;
+}
+
+body header .container .accordion-body .accordion__content .right__content p {
+  padding-top: 20px;
+}
+
+button {
+  color: #512416 !important;
+  font-weight: 600;
+}
+
+footer {
+  z-index: 1000;
+  background-color: #f5ebdc;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+}
+
+.navbar {
+  z-index: 1000;
+  background-color: #f5ebdc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+  .accordion__content {
+    display: block !important;
+    text-align: center;
+  }
+  .mainimgBox {
+    max-width: 200px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=rewards.css.map */

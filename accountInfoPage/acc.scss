@@ -1,0 +1,67 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .container {
+            max-width: 500px;
+            margin: auto;
+       .accountingo__box {
+        padding: 20px;
+        width: 100%;
+        min-height: 30vh;
+        input {
+            color: $text-color;
+            padding: 10px;
+            margin-top: 20px;
+            width: 100%;
+            border: 2px solid black ;
+            opacity: 0.7;
+        }
+        #acc {
+            color: $text-color;
+            font-weight: 700;
+            text-align: center;
+        }
+        span {
+            position: relative;
+            top: 20px;
+            color: $text-color;
+            font-weight: 900;
+        }
+        button {
+            border-radius: 20px;
+        }
+        .b {
+            padding-bottom: 30px;
+        }
+       }
+        }
+    }
+}
+
+footer {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    bottom: 0px;
+}
+.navbar {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    top: 0px;
+}
+
+
+@font-face {
+    font-family: "delicious";
+    src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+@import "../fonts/font.css"

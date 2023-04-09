@@ -1,0 +1,102 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            .about__us__container {
+                font-family: "delicious";
+                color: white;
+                font-size: 50px;
+                background-color:$text-color;
+                text-align: center;
+            }
+            .grid__box {
+                margin-top: 40px;
+                border-bottom: 2px solid black;
+                border-top: 2px solid black;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                .inner__grid__box {
+                    max-width: 600px;
+                    margin: auto;
+                    .first {
+
+                        .inner__first {
+                            display: flex;
+                            gap: 30px;
+                            margin: auto;
+                            p {
+                                text-align: center;
+                            }
+                        }
+                    }
+                    .inner__second {
+                        display: flex;
+                        margin: auto;
+                        gap: 10px;
+                    }
+                    
+                }
+            }
+            #color {
+                color: $text-color;
+                font-weight: 900;
+                text-align: center;
+            }
+            #sec_color {
+                color: $text-color;
+                font-weight: 600;
+                text-align: center; 
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .inner__grid__box {
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width: 514px) {
+    .inner__grid__box {
+        font-size: 12px !important;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .inner__grid__box {
+        font-size: 10px !important;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .inner__grid__box {
+        font-size: 8px !important;
+    }
+}
+footer {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    bottom: 0px;
+}
+.navbar {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    top: 0px;
+}
+
+
+@font-face {
+    font-family: "delicious";
+    src: url(../fonts/seconFont/DeliciousHandrawn-Regular.ttf);
+}
+@import "../fonts/font.css"
