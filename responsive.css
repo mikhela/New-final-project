@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+  .navbar__price {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 935px) {
+  .slider {
+    width: 170px !important;
+    height: 170px !important;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .swiper-slide img {
+    height: 400px !important;
+  }
+  #logo {
+    position: relative;
+    left: 20px !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

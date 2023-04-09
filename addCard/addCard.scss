@@ -1,0 +1,48 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    color: $text-color;
+    .cancelPage {
+        font-size: 20px;
+        a {
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+    }   
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .images {
+            img{
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 300px;
+                max-width: 100%;
+            }
+        }
+        .input {
+            input {
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            button {
+                margin-top: 40px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 200px;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@import "../fonts/font.css"

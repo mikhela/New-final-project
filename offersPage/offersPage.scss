@@ -1,0 +1,168 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    background-color: rgba(245,235,220,255);
+    font-family: "alkarta";
+    a {
+        text-decoration: none;
+    }
+    .Promocode__modal {
+        background-color: white;
+        position: absolute;
+        width: 100%;
+        z-index: 10000;
+        min-height: 150px;
+        bottom:0px;
+        display: none;
+        #close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(80, 35, 20);
+        }
+        p {
+            display: none;
+            font-size: 15px;
+        }
+        input {
+            margin-top: 20px;
+            width: 1200px;
+            max-width: 100%;
+        }
+    }
+
+    header {
+        width: 100%;
+        min-height: 210vh;
+        .container {
+            max-width: 800px;
+            margin: auto;
+            .content {
+                cursor: pointer;
+                gap: 15px;
+                margin-top: 30px;
+                display: flex;
+                width: 100%;
+                background-color: white;
+                border-radius: 10px;
+                padding-top: 14px;
+                padding-bottom: 14px;
+                padding-inline-start: 24px;
+                i {
+                    font-size: 20px;
+                    padding: 10px;
+                    width: 50px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: red;
+                    color: white;
+                    text-align: center;
+                }
+                h2 {
+                    font-weight: 900;
+                    font-size: 20px;
+                    padding: 7px;
+                }
+            }
+            .All__menu__box {
+                margin-top: 30px;
+                background-color: white;
+                padding-inline: 40px;
+                border-radius: 10px;
+                img {
+                    width: 150px;
+                    object-fit: contain;
+                }
+                h2 {
+                    color: $text-color;
+                    font-weight: 700;
+                    font-size: 24px;
+                    padding: 20px;
+                    margin-top: 10px;
+                }
+                p {
+                    padding: 20px;
+                    color: black;
+                    position: relative;
+                    top: -30px;
+                }
+            }
+        }
+    }
+}
+.sticky {
+        z-index: 1000;
+        background-color: rgba(245,235,220,255);
+        position: sticky;
+        top: 0px;
+}
+footer {
+    z-index: 1000;
+    background-color: rgba(245,235,220,255);
+    position: sticky;
+    bottom: 0px;
+}
+@media only screen and (max-width: 804px) {
+    .All__menu__box {
+        h2 {
+            font-size: 20px !important;
+        }
+        p {
+            font-size: 16px !important;
+        }
+    }
+}
+@media only screen and (max-width: 592px) {
+    .All__menu__box {
+ .corv {
+
+    display: block !important;
+    h2 {
+        font-size: 15px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+ }
+
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .myInPut {
+        width: 500px !important;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .myInPut {
+        width: 300px !important;
+        max-width: 100%;
+    }
+    #promo {
+        font-size: 24px;
+    }
+    #gamochndi {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .myInPut {
+        width: 250px !important;
+        max-width: 100%;
+    }
+    #promo {
+        font-size: 22px;
+    }
+    #gamochndi {
+        font-size: 10px;
+    }
+}
+
+
+@import "../fonts/font.css"

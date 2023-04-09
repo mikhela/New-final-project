@@ -1,0 +1,61 @@
+@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+body {
+  font-family: "alkarta";
+  background-color: #f5ebdc;
+}
+
+body header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+body header .royal img {
+  width: 250px;
+  max-width: 100%;
+  margin-top: 80px;
+  position: relative;
+  margin-left: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+body header .fries h3 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+body header .fries p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+body header .fries .but {
+  width: 350px;
+  margin: auto;
+}
+
+body header .fries .but button {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+body header .fries img {
+  width: 400px;
+  max-width: 100%;
+  margin-top: 30px;
+  position: relative;
+  margin-left: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=errorpage.css.map */

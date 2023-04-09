@@ -1,0 +1,45 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    a {
+        text-decoration: none;
+        color: red;
+   
+    }
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .method {
+            position: relative;
+            top: 100px;
+            text-align: center;
+            color: $text-color;
+            font-weight: 800;
+        }
+        p {
+            text-align: center;
+            margin-top: 110px;
+            font-size: 20px;
+        }
+        .meth_content {
+            margin: auto;
+            height: 200px;
+            button {
+                width: 400px;
+                max-width: 100%;
+                border-radius: 20px;
+                font-size: 20px;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-top: 20px;
+     
+            }
+        }
+    }
+}
+
+@import "../fonts/font.css"

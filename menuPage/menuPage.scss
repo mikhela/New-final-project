@@ -1,0 +1,107 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    min-height: 100vh;
+    width: 100%;
+    .navbar {
+        background-color: rgb(214, 35, 0);
+        width: 100%;
+        h2 {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+        }
+    }
+}
+header {
+    width: 100%;
+    min-height: 80vh;
+    .inner__container {
+        padding-top: 40px;
+        max-width: 810px;
+        margin: auto;
+        button {
+            font-size: 24px;
+            width: 400px;
+            max-width: 100%;
+            &:hover {
+                background-color: rgba(245,235,220,255);
+                color: black;
+            }
+        }
+        .cont {
+            margin-top: 25px;
+            position: relative;
+        }
+        input {
+            width: 820px;
+            padding: 10px;
+            max-width: 100%;
+        }
+        #searchbar {
+            font-size: 25px;
+            position: absolute;
+            right: 20px;
+            top: 10px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 832px) {
+    .inner__container {
+        width: 610px !important;
+        max-width: 100% !important;
+        button {
+            font-size: 20px !important;
+            width: 300px !important;
+        }
+    
+    }
+}
+@media only screen and (max-width: 662px ) {
+    .inner__container {
+        width: 410px !important;
+        max-width: 100% !important;
+        button {
+            font-size: 18px !important;
+            width: 200px !important;
+        }
+    
+    }
+}
+@media only screen and (max-width: 434px ) {
+    .inner__container {
+        width: 290px !important;
+        max-width: 100% !important;
+        button {
+            font-size: 16px !important;
+            width: 140px !important;
+        }
+    
+    }
+}
+
+@media only screen and (max-width: 310px ) {
+    .inner__container {
+        width: 210px !important;
+        max-width: 100% !important;
+        button {
+            font-size: 14px !important;
+            width: 100px !important;
+        }
+    
+    }
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+@import "../fonts/font.css"

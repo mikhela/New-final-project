@@ -1,0 +1,39 @@
+$text-color: #512416;
+$border-color: #51241697;
+$moreborder-color: #652815;
+body {
+    font-family: "alkarta";
+    background-color: rgba(245,235,220,255);
+    width: 100%;
+    header {
+        width: 100%;
+        min-height: 80vh;
+        .container {
+            max-width: 1400px;
+            margin: auto;
+            h2 {
+                position: relative;
+                top: 180px;
+                color: $text-color;
+                text-align: center;
+                font-weight: 900;
+            }
+            p {
+                font-size: 25px;
+                margin-top: 220px;
+                color: $text-color;
+                text-align: center;
+            }
+            .myBTN {
+                margin-top: 10px;
+                font-size: 20px;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+@import "../fonts/font.css"

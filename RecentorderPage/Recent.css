@@ -1,0 +1,42 @@
+@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+body {
+  font-family: "alkarta";
+  background-color: #f5ebdc;
+  width: 100%;
+}
+
+body header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+body header .container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+body header .container h2 {
+  position: relative;
+  top: 180px;
+  color: #512416;
+  text-align: center;
+  font-weight: 900;
+}
+
+body header .container p {
+  font-size: 25px;
+  margin-top: 220px;
+  color: #512416;
+  text-align: center;
+}
+
+body header .container .myBTN {
+  margin-top: 10px;
+  font-size: 20px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 20px;
+}
+/*# sourceMappingURL=Recent.css.map */

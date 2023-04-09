@@ -1,0 +1,50 @@
+@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+body {
+  font-family: "alkarta";
+  background-color: #f5ebdc;
+  min-height: 100vh;
+  width: 100%;
+  color: #512416;
+}
+
+body .cancelPage {
+  font-size: 20px;
+}
+
+body .cancelPage a {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+body header {
+  width: 100%;
+  min-height: 80vh;
+}
+
+body header .images img {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 300px;
+  max-width: 100%;
+}
+
+body header .input input {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+body header .input button {
+  margin-top: 40px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 200px;
+  max-width: 100%;
+}
+/*# sourceMappingURL=addCard.css.map */
