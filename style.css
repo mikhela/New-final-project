@@ -1,4 +1,4 @@
-@import url(c:\Users\Acer\Desktop\New final project\fonts\font.css);
+@import url(c:\Users\Acer\Desktop\Newfinalproject\fonts\font.css);
 body {
   font-family: "alkarta";
   background-color: #f5ebdc;
@@ -25,11 +25,11 @@ body header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   overflow: hidden;
   overflow-x: hidden;
 }

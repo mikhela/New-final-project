@@ -14,10 +14,9 @@ body header .royal img {
   max-width: 100%;
   margin-top: 80px;
   position: relative;
-  margin-left: 30px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 body header .fries h3 {
@@ -39,7 +38,7 @@ body header .fries .but button {
   position: relative;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   border-radius: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -51,11 +50,9 @@ body header .fries .but button {
 body header .fries img {
   width: 400px;
   max-width: 100%;
-  margin-top: 30px;
   position: relative;
-  margin-left: 30px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 /*# sourceMappingURL=errorpage.css.map */

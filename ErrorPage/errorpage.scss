@@ -1,53 +1,50 @@
 body {
-    font-family: "alkarta";
-    background-color: rgba(245,235,220,255);
-    header {
-        width: 100%;
-        min-height: 80vh;
-        .royal img {
-            width: 250px;
-            max-width: 100%;
-            margin-top: 80px;
-            position: relative;
-            margin-left: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .fries {
-            h3 {
-                margin-top: 30px;
-                text-align: center;
-            }
-            p {
-                margin-top: 10px;
-                text-align: center;
-            }
-            .but {
-                width: 350px;
-                margin: auto;
-                button {
-                    position: relative;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    border-radius: 20px;
-                    padding-top: 10px;
-                    padding-bottom: 10px;
-                    padding-inline: 10px;
-                    font-size: 20px;
-                    font-weight: 800;
-                }
-            }
-        }
-        .fries img {
-            width: 400px;
-            max-width: 100%;
-            margin-top: 30px;
-            position: relative;
-            margin-left: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
+  font-family: "alkarta";
+  background-color: rgba(245, 235, 220, 255);
+  header {
+    width: 100%;
+    min-height: 80vh;
+    .royal img {
+      width: 250px;
+      max-width: 100%;
+      margin-top: 80px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
     }
+    .fries {
+      h3 {
+        margin-top: 30px;
+        text-align: center;
+      }
+      p {
+        margin-top: 10px;
+        text-align: center;
+      }
+      .but {
+        width: 350px;
+        margin: auto;
+        button {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          border-radius: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-inline: 10px;
+          font-size: 20px;
+          font-weight: 800;
+        }
+      }
+    }
+    .fries img {
+      width: 400px;
+      max-width: 100%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
 }
 
-@import "../fonts/font.css"
+@import "../fonts/font.css";

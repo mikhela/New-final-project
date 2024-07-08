@@ -9,13 +9,14 @@ body a {
 }
 
 body .Promocode__modal {
-  background-color: white;
+  background-color: rgb(128, 29, 29);
   position: absolute;
   width: 100%;
   z-index: 10000;
-  min-height: 150px;
+  height: 150px;
   bottom: 0px;
   display: none;
+  top: 0px;
 }
 
 body .Promocode__modal #close {
@@ -64,7 +65,7 @@ body header .container .content {
   padding-top: 14px;
   padding-bottom: 14px;
   -webkit-padding-start: 24px;
-          padding-inline-start: 24px;
+  padding-inline-start: 24px;
 }
 
 body header .container .content i {
@@ -94,7 +95,7 @@ body header .container .All__menu__box {
 body header .container .All__menu__box img {
   width: 150px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 body header .container .All__menu__box h2 {
@@ -116,7 +117,7 @@ body header .container .All__menu__box p {
   z-index: 1000;
   background-color: #f5ebdc;
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0px;
 }
 
